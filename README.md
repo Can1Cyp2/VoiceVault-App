@@ -27,6 +27,15 @@ npm run dev
 npm run build
 ```
 
+## Deploy
+
+```bash
+npm run deploy
+```
+
+This builds the site and publishes `dist` to the `gh-pages` branch. In GitHub,
+set Pages to deploy from the `gh-pages` branch at `/`.
+
 The Vite base path is set to `/VoiceVault-App/` for GitHub Pages at:
 
 https://can1cyp2.github.io/VoiceVault-App/
